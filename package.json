@@ -1,5 +1,5 @@
 {
-	"name": "xlsjs",
+	"name": "@s4rb/xlsjs",
 	"version": "0.7.5",
 	"author": "sheetjs",
 	"description": "Excel 5.0/95 and 97-2004 spreadsheet (BIFF5 XLS / BIFF8 XLS / XML 2003) parser",
@@ -19,7 +19,7 @@
 		"xlsx":"",
 		"uglify-js":""
 	},
-	"repository": { "type":"git", "url":"git://github.com/SheetJS/js-xls.git" },
+	"repository": { "type":"git", "url":"git://github.com/S4RB/js-xls.git" },
 	"scripts": {
 		"pretest": "git submodule init && git submodule update",
 		"test": "make mocha"
@@ -29,7 +29,7 @@
 			"pattern": "xls.js"
 		}
 	},
-	"bugs": { "url": "https://github.com/SheetJS/js-xls/issues" },
+	"bugs": { "url": "https://github.com/S4RB/js-xls/issues" },
 	"license": "Apache-2.0",
 	"engines": { "node": ">=0.8" }
 }
